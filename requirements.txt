@@ -1,0 +1,21 @@
+# general  modules
+django>4.2,<4.3
+
+# env controlls
+python-decouple
+
+# deployment module
+gunicorn
+whitenoise
+
+
+# async management
+channels[daphne] >4,<5
+daphne
+Twisted[tls,http2]
+channels_redis
+
+# database client
+psycopg[binary,pool]
+
+
